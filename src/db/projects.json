@@ -1,0 +1,43 @@
+[
+    {
+        "name":"Encuestas web",
+        "image":"src/images/vota.webp",
+        "description":"Web para votaciones online, donde usuarios registrados pueden crear una cuenta para crear una votación, ver detalle a través de gráfica, se restringe el voto para que solo puedan hacerlo una vez. Y también buscar votaciones de demás usuarios para votarlas, mirarlas.",
+        "tags": [
+            "angularjs","nodejs","express","mongoose","ngprime","Creación mía"
+        ],
+        "url":"https://proyecto-api2.herokuapp.com/inicio",
+        "repository":"https://github.com/matias-user/proyecto-back_final"
+    },
+    {
+        "name":"Caja chica App",
+        "image":"src/images/caja.webp",
+        "description":"Web para ingresar gastos y abonos simulando una caja chica se ingresa un gasto asignándole la dni del rendidor para mantener historial de quien debe, también hay historial de los abonos y gastos, pudiendo ordenarlos por fecha y exportar el informe en formato excel.",
+        "tags": [
+            "angularjs","firebase","ngprime","Creación mía"
+        ],
+        "url":"https://caja-chica-bc982.web.app/",
+        "repository":"https://github.com/matias-user/proyecto-innovacion"
+    },
+    {
+        "name":"Ecommerce con mantenedor",
+        "image":"src/images/ecommerce.webp",
+        "description":"Web que simula un ecommerce con panel de administración para el respectivo CRUD de los productos y simulación de un carrito de compras.",
+        "tags": [
+            "ionic","firebase","angularjs","Creación mía"
+        ],
+        "url":"https://carrito-a51a4.web.app/login",
+        "repository":"https://github.com/matias-user/proyecto-carrito"
+    },
+    {
+        "name":"Viajes Chile",
+        "image":"src/images/viajes.webp",
+        "description":"Página de tipo landingpage con formulario de contacto.",
+        "tags": [
+            "boostrap","jquery","css","Desafío de un curso"
+        ],
+        "url":"https://matias-user.github.io/viajes-chile/",
+        "repository":"https://github.com/matias-user/viajes-chile"
+    }
+   
+]

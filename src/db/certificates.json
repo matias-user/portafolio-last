@@ -1,0 +1,33 @@
+[
+    {
+        "title":"src/images/certificados/titulo.webp"
+
+    },
+    {
+        "title":"src/images/certificados/angular.webp"
+    },
+    {
+        "title":"src/images/certificados/csharp.webp"
+    },
+    {
+        "title":"src/images/certificados/css.webp"
+    },
+    {
+        "title":"src/images/certificados/ingles.webp"
+    },
+    {
+        "title":"src/images/certificados/javascript-uno.webp"
+    },
+    {
+        "title":"src/images/certificados/javascript-dos.webp"
+    },
+    {
+        "title":"src/images/certificados/python.webp"
+    },
+    {
+        "title":"src/images/certificados/rxjs.webp"
+    },
+    {
+        "title":"src/images/certificados/typeScript.webp"
+    }
+]
