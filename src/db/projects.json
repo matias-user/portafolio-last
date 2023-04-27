@@ -1,5 +1,14 @@
 [
-
+    {
+        "name":"Woocommerce react - proyecto coderhouse",
+        "image":"src/images/woocommerce-react.png",
+        "description":"Proyecto final del curso de react en coderhouse, es un woocommerce con firebase, el cual se trae los datos de firebase se renderizan, y luego se deben agregar al carrito y el carrito hace los calculos de el valor total.",
+        "tags": [
+            "react","firebase","hooks"
+        ],
+        "url":"https://proyecto-react-84b27.web.app/",
+        "repository":"https://github.com/matias-user/proyecto-coderhouse-react"
+    },
     {
         "name":"Caja chica App",
         "image":"src/images/caja.webp",
