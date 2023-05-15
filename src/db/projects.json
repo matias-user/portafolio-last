@@ -38,16 +38,7 @@
         ],
         "url":"https://matias-user.github.io/viajes-chile/",
         "repository":"https://github.com/matias-user/viajes-chile"
-    },
-    {
-        "name":"Encuestas web",
-        "image":"src/images/vota.webp",
-        "description":"Web para votaciones online, donde usuarios registrados pueden crear una cuenta para crear una votación, ver detalle a través de gráfica, se restringe el voto para que solo puedan hacerlo una vez. Y también buscar votaciones de demás usuarios para votarlas, mirarlas.",
-        "tags": [
-            "angularjs","nodejs","express","mongoose","ngprime","Creación mía"
-        ],
-        "url":"https://proyecto-api2.herokuapp.com/inicio",
-        "repository":"https://github.com/matias-user/proyecto-back_final"
     }
+
    
 ]
