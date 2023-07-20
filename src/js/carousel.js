@@ -1,5 +1,6 @@
 import innerBadgeColor from "./innerBadgeColor.js";
 
+// Traer json de projectos, simula una bbdd.
 const getProjects = async() => {
     let resultProjects = [];
     await fetch( 'src/db/projects.json' )
@@ -60,6 +61,8 @@ const insertItemsCarousel = async() => {
             <a target="__blank" href="${project.url}" class="btn btn-dark ">Ir a proyecto</a>
             <a target="__blank" href="${project.repository}" class="btn btn-outline-dark ms-auto">Repo github</a>
         `;
+
+        // Agregar badges con colores random
         project.tags.forEach( ( tag, idx) => {
             innerBadgeColor( idx, divBody, tag);
         } );
