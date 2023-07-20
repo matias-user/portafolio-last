@@ -70,8 +70,7 @@ a.nav-link {
 }
 
 .show {
-    animation: clip-100 .3s ease forwards;
-
+    animation: clip-100 .3s ease-in-out forwards;
 }
 
 .main__icon {
@@ -87,9 +86,12 @@ a.nav-link {
     animation: rotate-vert-center 1s;
 }
 
-.hide {
-    clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+@media (min-width: 480px) {
+    .hide {
+        clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+    }
 }
+
 
 .card {
     width: 100%;
