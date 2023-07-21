@@ -1,15 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;700&display=swap');
 
+/* Global */
 html {
     scroll-behavior: smooth;
 }
 body{
     font-family: 'Open Sans', sans-serif;
 }
+
 .ff-dos{
     font-family: 'Oswald', sans-serif;
 }
+
+/* Nav */
 a.active {
     font-weight: bold;
     color: #f2f2f2;
@@ -19,6 +23,10 @@ a.nav-link {
     position: relative;
 }
 
+/* Main */
+.main{
+    margin-top: 68px;
+}
 .main__image {
     clip-path: polygon(0 0, 0 0, 0 100%, 0% 100%);
     animation: clip-100 .2s forwards;
@@ -102,7 +110,7 @@ a.nav-link {
 .certificados__image {
     width: 100%;
     max-height: 35rem;
-    object-fit: contain;
+    object-fit:contain;
 }
 
 .footer__text {
@@ -126,7 +134,7 @@ a.nav-link {
     }
 
     .certificados__image {
-        object-fit: fill;
+        object-fit:contain;
     }
 
     .footer__text {
