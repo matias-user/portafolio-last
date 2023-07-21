@@ -4,7 +4,7 @@ const certificatesSection = document.querySelector('#certificados').getBoundingC
 const detectScroll = () => {
     
     window.onscroll = (e) => {
-        if( window.scrollY >= (projectsSection.y - 300)){
+        if( window.scrollY >= (projectsSection.y - 400)){
             document.getElementById('proyectos').classList.add('show');
         } 
         if(window.scrollY >= (certificatesSection.y + 200)){

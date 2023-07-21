@@ -78,7 +78,7 @@ a.nav-link {
 }
 
 .show {
-    animation: clip-100 .3s ease-in-out forwards;
+    animation: clip-100 .3s ease forwards;
 }
 
 .main__icon {
