@@ -87,11 +87,10 @@ a.nav-link {
 }
 
 @media (min-width: 480px) {
-    .hide {
+    .ocultar {
         clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
     }
 }
-
 
 .card {
     width: 100%;
